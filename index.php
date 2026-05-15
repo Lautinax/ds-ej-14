@@ -1,9 +1,10 @@
 <?php 
-require_once 'modelo/modelo.php';
+
+require_once 'modelo/auto.php';
 
 
 $a = new Auto();
-$a->Marca = $_GET['Fiat'];
+$a->Marca = 'Fiat';
 $a->Modelo = 'Argo';
 $a->Color = 'Blanco ';
 $a->Patente  = 'ABC123CD';
